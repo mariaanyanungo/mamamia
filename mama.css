@@ -1,0 +1,37 @@
+
+body{
+    background-color: hotpink;
+    position: fixed;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: -400px;
+    font-size: 100px;
+    margin-right: 400px;
+
+}
+div{
+    background-color: hotpink;
+    width: 100vw;
+    height: 20vh;
+    margin-top:-1500px ;
+
+}
+.flower1 {animation: flower1 2s linear infinite;
+         transform-origin: center;
+         transform-box: fill-box; 
+}
+      @keyframes flower1 {
+        from{
+            transform: rotate(0deg);
+
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    } 
+
+
+
+
